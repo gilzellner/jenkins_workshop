@@ -28,3 +28,5 @@ create a job that fails permanently, and use the naginator plugin to have it try
 
 # Excercise 7: Git Plugin
 create a job that triggers a clone based on pushed items to this repo
+
+# Excercise 8: 
