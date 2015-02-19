@@ -35,3 +35,9 @@ create a job that fails permanently, and use the naginator plugin to have it try
 
 # Excercise 9: Git Plugin
 create a job that triggers a clone based on pushed items to this repo
+
+# Excercise 10: behind the scenes
+create a job that would take a long time to run, and look at the actual script running
+
+# Excercise 11: build queue
+create a job that would take a long time to run, run it several times, what happens ?
