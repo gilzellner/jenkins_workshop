@@ -3,11 +3,15 @@ material for jenkins workshop
 
 requirements:
 Linux/MacOS laptop with Java6 or higher installed.
+Git installed
+Github user
 Good internet connection.
 
 Agenda:
 5 minute intro - what is Jenkins and what people use it for
-55 minutes hands on work.
+55 minutes hands on work. (part 1)
+15 minute break
+45 minutes hands on work, (part 2+3)
 
 ## Lets Install Jenkins on your computer
 Step 1: Download Jenkins: http://jenkins-ci.org/
@@ -43,13 +47,18 @@ if it succeeds, trigger job A, if it fails, trigger job B.
 ## Excercise 8: behind the scenes
 create a job that would take a long time to run, and look at the actual script running
 
+## Excercise 9: build queue
+create a job that would take a long time to run, run it several times, what happens ?
+
 # Part 2: Plugins, best practices, slaves.
 
-## Excercise 9: Naginator Plugin
+## Excercise 10: Naginator Plugin
 create a job that fails permanently, and use the naginator plugin to have it try again in increasing variable time
 
-## Excercise 10: Git Plugin
+## Excercise 11: Git Plugin
 create a job that triggers a clone based on pushed items to this repo
 
-## Excercise 11: build queue
-create a job that would take a long time to run, run it several times, what happens ?
+# Part 3: Continuous Delivery Pipeline.
+
+## Excercise 12: Continuous Delivery Pipeline
+create a build, test, deploy pipeline based on jenkins jobs
