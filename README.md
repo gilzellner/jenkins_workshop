@@ -9,47 +9,47 @@ Agenda:
 5 minute intro - what is Jenkins and what people use it for
 55 minutes hands on work.
 
-# Lets Install Jenkins on your computer
+## Lets Install Jenkins on your computer
 Step 1: Download Jenkins: http://jenkins-ci.org/
 
 Step 2: start jenkins: 
 java -jar jenkins.war
 
-## Part 1: Basics
+# Part 1: Basics
 
-# Excercise 1: Hello World
+## Excercise 1: Hello World
 echo Hello world!
 
-# Excercise 2: Periodic Build
+## Excercise 2: Periodic Build
 say hello world every minute! (cron expression for this is "* * * * *")
 
-# Excercise 3: Am I online ?
+## Excercise 3: Am I online ?
 create a jenkins job that checks if you are online every minute, and then disconnect the wifi.
 (command to ping 3 times is for example "ping -c 3 host")
 
-# Excercise 4: Choice Parameters
+## Excercise 4: Choice Parameters
 Create a job that passes or fails based on a choice in build parameter.
 
-# Excercise 5: Send an Email
+## Excercise 5: Send an Email
 create a jenkins job that sends an email to yourself.
 
-# Excercise 6: Create a job that triggers another job
+## Excercise 6: Create a job that triggers another job
 create a job called "knock knock", which calls a another job that says "who's there?"
 
-# Excercise 7: Smarter Flows
+## Excercise 7: Smarter Flows
 create a job that triggers a clone based on pushed items to this repo
 if it succeeds, trigger job A, if it fails, trigger job B.
 
-# Excercise 8: behind the scenes
+## Excercise 8: behind the scenes
 create a job that would take a long time to run, and look at the actual script running
 
-## Part 2: Plugins, best practices, slaves.
+# Part 2: Plugins, best practices, slaves.
 
-# Excercise 9: Naginator Plugin
+## Excercise 9: Naginator Plugin
 create a job that fails permanently, and use the naginator plugin to have it try again in increasing variable time
 
-# Excercise 10: Git Plugin
+## Excercise 10: Git Plugin
 create a job that triggers a clone based on pushed items to this repo
 
-# Excercise 11: build queue
+## Excercise 11: build queue
 create a job that would take a long time to run, run it several times, what happens ?
