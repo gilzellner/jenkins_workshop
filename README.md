@@ -9,8 +9,11 @@ Good internet connection.
 
 Agenda:
 5 minute intro - what is Jenkins and what people use it for
+
 55 minutes hands on work. (part 1)
+
 15 minute break
+
 45 minutes hands on work, (part 2+3)
 
 ## Lets Install Jenkins on your computer
