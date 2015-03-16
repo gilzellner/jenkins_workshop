@@ -59,6 +59,7 @@ create a job that would take a long time to run, run it several times, what happ
 create a job that fails permanently, and use the naginator plugin to have it try again in increasing variable time
 
 ## Excercise 11: Git Plugin
+repo URL: git@github.com:gilzellner/jenkins_workshop.git
 create a job that triggers a clone based on pushed items to this repo
 
 # Part 3: Continuous Delivery Pipeline.
