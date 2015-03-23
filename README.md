@@ -65,3 +65,6 @@ create a job that triggers a clone based on pushed items to this repo
 
 ## Excercise 11: Continuous Delivery Pipeline
 create a build, test, deploy pipeline based on jenkins jobs
+
+Given at GetTaxi, Feb 19 2015
+Given at SeekingAlpha, March 16 2015
