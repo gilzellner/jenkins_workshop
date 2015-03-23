@@ -43,22 +43,18 @@ create a jenkins job that sends an email to yourself.
 ## Excercise 6: Create a job that triggers another job
 create a job called "knock knock", which calls a another job that says "who's there?"
 
-## Excercise 7: Smarter Flows
-create a job that triggers a clone based on pushed items to this repo
-if it succeeds, trigger job A, if it fails, trigger job B.
-
-## Excercise 8: behind the scenes
+## Excercise 7: behind the scenes
 create a job that would take a long time to run, and look at the actual script running
 
-## Excercise 9: build queue
+## Excercise 8: build queue
 create a job that would take a long time to run, run it several times, what happens ?
 
 # Part 2: Plugins, best practices, slaves.
 
-## Excercise 10: Naginator Plugin
+## Excercise 9: Naginator Plugin
 create a job that fails permanently, and use the naginator plugin to have it try again in increasing variable time
 
-## Excercise 11: Git Plugin
+## Excercise 10: Git Plugin
 repo URL: 
 
 https://github.com/gilzellner/jenkins_workshop.git
@@ -67,5 +63,5 @@ create a job that triggers a clone based on pushed items to this repo
 
 # Part 3: Continuous Delivery Pipeline.
 
-## Excercise 12: Continuous Delivery Pipeline
+## Excercise 11: Continuous Delivery Pipeline
 create a build, test, deploy pipeline based on jenkins jobs
