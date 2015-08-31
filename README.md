@@ -9,8 +9,11 @@ material for jenkins workshop
 
 requirements:
 Linux/MacOS laptop with Java6 or higher installed.
+
 Git installed
+
 Github user
+
 Good internet connection.
 
 Agenda:
