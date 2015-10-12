@@ -48,6 +48,7 @@ Create a job that passes or fails based on a choice in build parameter.
 
 ## Excercise 5: Send an Email
 create a jenkins job that sends an email to yourself.
+How to enable local smtp on mac os: https://www.phase2technology.com/blog/how-to-enable-local-smtp-server-postfix-on-os-x-leopard/
 
 ## Excercise 6: Create a job that triggers another job
 create a job called "knock knock", which calls a another job that says "who's there?"
