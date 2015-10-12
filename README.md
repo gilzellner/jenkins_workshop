@@ -3,7 +3,7 @@ Given at GetTaxi, Feb 19 2015
 
 Given at SeekingAlpha, March 16 2015
 
-Will be given at Holon entrepeneurship center, October 8th, 2015
+Will be given at Perion, October 13th, 2015
 
 material for jenkins workshop
 
