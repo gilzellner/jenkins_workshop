@@ -4,7 +4,7 @@ node {
       sh 'echo "Unit testing"'
    }
    stage('System tests') {
-      sh 'echo "System tests"'
+      sh 'exit 1'
    }
    stage('Deploy to prod') {
       sh 'echo "Deploy to prod"'
